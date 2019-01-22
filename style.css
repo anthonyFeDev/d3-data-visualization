@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+}
+
+.data-visualization {
+  display: flex;
+}
+.data-visualization__section__map {
+  background-image: url("https://geology.com/world/world-map-clickable.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.data-visualization__section__options {
+  justify-content: center;
+  margin: 20px auto auto;
+}
+.data-visualization__section__options__button {
+  width: 200px;
+}
+.data-visualization__section__options__file-upload {
+  margin-top: 20px;
+}
+.data-visualization__section__options__file-upload__button {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.data-visualization__section__options__file-upload__button-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
